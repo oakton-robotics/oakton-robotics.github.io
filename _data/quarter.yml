@@ -1,0 +1,69 @@
+# This is the data file to edit when setting up a new quarter
+# The home page and schedule will be generated using these settings
+---
+name:  2020
+software: 
+    - name: Harambe 
+      img: /_assets/harambe1.png
+mechanical:
+    - name: Harambe 
+      img: /_assets/harambe1.png
+electrical: 
+    - name: Harambe
+      img: /_assets/harambe1.png
+
+weeks:
+    # start is date of first lecture (a Monday)
+    # due date-time is for assign1 (will assume weekly repeat thereafter)
+  - start_date: "2020-01-06"
+    assign1_duedate: "2020-01-21 6:00 PM"
+    mon: /lectures/Intro/
+    lab: No lab in first week
+    assign: /assignments/assign0/
+    fri: /lectures/ARM/
+  - 
+    mon: /lectures/ASM/
+    lab: /labs/lab1/
+    assign: /assignments/assign1/
+    fri: /lectures/C_Control/
+  -
+    mon: /lectures/C_Pointers/
+    lab: /labs/lab2/
+    assign: /assignments/assign2/
+    fri: /lectures/C_Functions/ 
+  -
+    mon: /lectures/Serial/ 
+    lab: /labs/lab3/
+    assign: /assignments/assign3/
+    fri: /lectures/Linking/
+  -
+    mon: /lectures/Memory/ 
+    lab: /labs/lab4/
+    assign: /assignments/assign4/
+    fri: /lectures/C_Mastery/
+  -
+    mon: /lectures/Keyboard/
+    lab: /labs/lab5/
+    assign: /assignments/assign5/
+    fri: /lectures/Framebuffer/
+  -
+    mon: President's Day Holiday
+    lab: /labs/lab6/
+    assign: /assignments/assign6/
+    fri: /lectures/Interrupts1/
+  -
+    mon: /lectures/Interrupts2/ 
+    lab: /labs/lab7/
+    assign: /assignments/assign7/
+    fri: /lectures/Sensors/
+  -
+    mon: /lectures/SystemDesign/
+    lab: /labs/projectlab1/
+    assign: /assignments/project/
+    fri: /lectures/Arithmetic/
+  -
+    mon: /lectures/Wrap/ 
+    lab: /labs/projectlab2/
+    fri: No lecture (payback for attending on MLK, thank you!)
+  -
+    project_due: "2020-03-20"
