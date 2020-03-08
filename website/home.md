@@ -23,11 +23,11 @@ We build robots for blood sweat and glory, read more about us  [here](/about/).
 </div>
 </div>
 
-{% include schedule.html current_only=true %}
+[//]: # (<!  include schedule.html current_only=true ->)
 
 
-#### Meet the CS107E team
+#### Meet the team
 {% include gallery.html %}
 
 
-</script><script src="/_assets/gcal.js"></script>
+<script src="/_assets/gcal.js"></script>
