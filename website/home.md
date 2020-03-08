@@ -4,7 +4,7 @@ title: Home
 layout: dashboard
 ---
 
-### Welcome to the {{ site.data.quarter.name }}   Oakton Robotics Team!
+### Welcome to the {{ site.data.year.name}} Team!
 
 We build robots for blood sweat and glory, read more about us  [here](/about/).
 
@@ -29,9 +29,5 @@ We build robots for blood sweat and glory, read more about us  [here](/about/).
 #### Meet the CS107E team
 {% include gallery.html %}
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdBpyHM3qfbxmkqtXfjLDHyoIucF2K-4xtjehzIqUE3NUkBZg/viewform?embedded=true" width="640" height="519" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="/_assets/gcal.js"></script>
+</script><script src="/_assets/gcal.js"></script>

@@ -1,9 +1,8 @@
-<!-- include this partial to emit gallery of staff names & photos -->
 
 <div class="gallery" style="display: inline-block;">
 <div class="row">
-{% assign all_staff = site.data.quarter.instructors | concat: site.data.quarter.cas | concat: site.data.quarter.sls %}
-{% for who in all_staff %} 
+{% assign all_members = site.data.year.software | concat: site.data.year.mechanical | concat: site.data.year.electrical | concat site.data.year.systems | site.data.year.advisors %}
+{% for who in all_members %} 
     <div class="col-xs-2">
         <img class="img-circle center-block" src="{{ who.img }}" style="max-height: 100px;">
         <p class="text-center">{{ who.name | split: ' ' | first }}</p>

@@ -1,7 +1,7 @@
 # This is the data file to edit when setting up a new quarter
 # The home page and schedule will be generated using these settings
 ---
-name:  2020
+name:  2020 Oakton Robotics
 software: 
     - name: Harambe 
       img: /_assets/harambe1.png
@@ -48,7 +48,7 @@ weeks:
     fri: /lectures/Framebuffer/
   -
     mon: President's Day Holiday
-    lab: /labs/lab6/
+    lab: /labs/lab6/ 
     assign: /assignments/assign6/
     fri: /lectures/Interrupts1/
   -
