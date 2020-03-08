@@ -3,13 +3,19 @@
 ---
 name:  2020 Oakton Robotics
 software: 
-    - name: Harambe 
+    - name: Haram Bae 
       img: /_assets/harambe1.png
 mechanical:
-    - name: Harambe 
+    - name: Haram Bae 
       img: /_assets/harambe1.png
 electrical: 
-    - name: Harambe
+    - name: Haram Bae
+      img: /_assets/harambe1.png
+systems:
+    - name: Haram Bae 
+      img: /_assets/harambe1.png
+advisors:
+    - name: Haram Bae 
       img: /_assets/harambe1.png
 
 weeks:
