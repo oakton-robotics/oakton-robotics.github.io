@@ -31,3 +31,19 @@ We build robots for blood sweat and glory, read more about us  [here](/about/).
 
 
 <script src="/_assets/gcal.js"></script>
+
+<div class="footer">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<p style="color: white; font-size: 100%; text-align:center;">
+Follow Us!
+<a href="https://www.facebook.com/Oaktobotics/" class="fa fa-facebook"></a>
+<a href="https://twitter.com/oaktobotics" class="fa fa-twitter"></a>
+</p>
+
+<p style="font-size: 65%; text-align:center;">
+<i>{{ site.data.year.name }} &middot; Site generated {{ "now" | date: "%Y-%m-%d %H:%M" }}</i>
+</p>
+
+</div> 

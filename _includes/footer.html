@@ -1,5 +1,27 @@
-<div class="footer navbar-default navbar-static-bottom">
-    <p style="font-size: 65%; color:green; text-align:center;">
-      <i>{{ site.data.year.name }} &middot; Site generated {{ "now" | date: "%Y-%m-%d %H:%M" }}</i>
-  </p>
+<style>
+.footer {
+        position: fixed;
+        left 0;
+        bottom 0;
+        width: 100%; 
+        background-color: green; 
+        color: white;
+        text-align: center
+}
+</style>
+<div class="footer">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+                <p style="text-align:center;font-size: 120%; color:green;">
+                <b>Follow Us!</b>
+                <a href="https://www.facebook.com/Oaktobotics/" class="fa fa-facebook"></a>
+                <a href="https://twitter.com/oaktobotics" class="fa fa-twitter"></a>
+
+        </p>
+
+        <p style="font-size: 65%; text-align:center;">
+                <i>{{ site.data.year.name }} &middot; Site generated {{ "now" | date: "%Y-%m-%d %H:%M" }}</i>
+        </p>
+
+
 </div> 
